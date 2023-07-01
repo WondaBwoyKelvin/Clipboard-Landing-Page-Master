@@ -35,8 +35,8 @@
         }
         
         #intro {
-            padding-top: 130px;
-            margin-left: 90px;
+            padding-top: 120px;
+            margin-left: 50px;
             text-align: center;
         }
         
@@ -47,7 +47,7 @@
         }
         
         #intro p {
-            padding: 10px 290px;
+            padding: 10px 320px;
             color: hsl(201, 11%, 66%);
             margin: 0 55px 25px;
             line-height: 25px;
@@ -127,7 +127,7 @@
         
         .company-image img {
             margin: 55px;
-            width: 150px;
+            width: 120px;
         }
         
         .latter p {
@@ -154,12 +154,12 @@
         }
         
         .contact-footer {
-            height: 200px;
+            height: 150px;
             /* text-align: center; */
         }
         
         .extra {
-            margin-top: 80px;
+            margin-top: 45px;
             margin-left: 130px;
             line-height: 25px;
         }
@@ -177,7 +177,7 @@
         .social {
             position: absolute;
             left: 85%;
-            margin-top: 86px; 
+            margin-top: 56px; 
            
 
         }
