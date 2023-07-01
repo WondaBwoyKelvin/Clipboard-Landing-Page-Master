@@ -1,11 +1,13 @@
+        
+      
         body {
             background-image: url(/images/bg-header-desktop.png);
             background-position: top right cover;
             background-repeat: no-repeat;
             background-size: 127rem;
             font-family: 'Bai Jamjuree', sans-serif;
-           
         }
+        
         p{
             font-size: 15px;
             font-weight: 400;
@@ -22,7 +24,7 @@
             font-size: 18px;
             text-align: center;
             cursor: pointer;
-            box-shadow:   2px 2px 15px hsl(171, 66%, 44%);
+            box-shadow:2px 2px 15px hsl(171, 66%, 44%);
         }
        
         #second-button {
@@ -178,10 +180,8 @@
             position: absolute;
             left: 85%;
             margin-top: 56px; 
-           
-
         }
-        
+    
         .social img {
             margin: 10px;
             width: 20px;
@@ -191,3 +191,162 @@
         .social img:hover {
             color: hsl(171, 66%, 44%);
         }
+
+
+        /* Responsiveness */
+        @media screen and (min-width:375px){
+
+            body{
+                background-image: url(/images/bg-header-mobile.png);
+                background-size: 80rem;
+                background-position: cover;
+            }
+            #intro {
+                padding-top: 80px;
+                margin-left:auto;
+                text-align: center;
+            }
+            #intro h1 {
+                padding: 0 35px;
+                font-size: 28px;
+            }
+
+            .image-container img {
+                width: 70px;
+            }
+            #intro p {
+                padding: 18px 5px;
+                color: hsl(201, 11%, 66%);
+                margin: 0 5px 5px;
+                line-height: 25px;
+            }
+            button {
+                padding-top: 10px;
+                margin: 12px;
+                width: 280px;
+            }
+            .description {
+                text-align: center;
+                margin-left: 10px;
+                padding: 0 55px;
+            }
+            
+            .description p {
+                padding: 0px;
+                line-height:20px;
+                color: hsl(210, 10%, 33%);
+                font-size: 13px;
+                font-weight: 400;
+            } 
+
+           .mid-image img{
+               width: 300px;
+               padding-left: 30px ;
+           }
+            .mid-image {
+                flex-wrap: wrap;
+                padding-top: 40px;
+            }
+
+            .options {
+                margin-right: 45px;
+             text-align: center;
+             padding-left: 10px;
+            }
+
+            .options p {
+              text-align: center;
+              padding:  5px ;
+                
+            }
+            #second-mid {
+                margin-top: 150px;
+            }
+
+            #second-mid h1{
+                padding: 0 35px;
+            }
+
+            #second-mid p {
+                padding: 0 40px;
+            }
+
+            .devices img{
+                width: 380px;
+            }
+
+            #outro {
+                padding-top: 80px;
+            }
+            #outro h1 {
+                padding: 0 35px;
+            }
+
+            #outro p {
+                padding: 0 35px;
+            }
+            .activity {
+              flex-direction: column;
+            }
+            .workflow{
+                margin: 10px;
+            }
+            .company-image img {
+                margin: 35px;
+            }
+            .latter{
+                padding-top: 80px;
+            }
+            .latter h2{
+                padding: 0 45px;
+            }
+
+            .latter p {
+                padding:0 350px;
+                margin-bottom: 30px;
+            }
+            .bottom-logo {
+             flex-direction:column;
+            }
+            .bottom-logo img {
+                margin-top: 50px;
+                padding-left: 100px;
+                align-items: center;
+        }
+
+        .contact-footer {
+            height: 370px;
+        }
+
+        .extra {
+            margin-top: 25px;
+            margin-left: 5px;
+            text-align: center;
+        }
+
+        .extra1 p {
+            margin: 10px;
+            display: block;
+            
+        }
+        
+        .extra2 p {
+            margin: 10px;
+            display: block;
+        }
+
+        .social {
+          position: inherit;
+          margin-top: 8px;
+          margin-left:115px;
+         
+        }
+
+        .social img {
+            display: inline-block;
+            margin: 10px;
+            width: 20px;
+            padding: 0;
+        }
+    
+    }
