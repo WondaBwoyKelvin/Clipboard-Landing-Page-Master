@@ -1,0 +1,192 @@
+        body {
+            background-image: url(/images/bg-header-desktop.png);
+            background-position: top right cover;
+            background-repeat: no-repeat;
+            background-size: 127rem;
+            font-family: 'Bai Jamjuree', sans-serif;
+           
+        }
+        p{
+            font-size: 18px;
+        }
+        button {
+            border: none;
+            border-radius: 50px;
+            width: 230px;
+            height: 50px;
+            margin: 5px;
+            background-color: hsl(171, 66%, 44%);
+            color: white;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow:   2px 2px 15px hsl(171, 66%, 44%);
+        }
+       
+        #second-button {
+            background-color: hsl(233, 100%, 69%);
+            box-shadow: 2px 2px 15px hsl(233, 100%, 69%);
+        }
+        
+        .image-container img {
+            width: 90px;
+        }
+        
+        #intro {
+            padding-top: 70px;
+            margin-left: 90px;
+            text-align: center;
+        }
+        
+        #intro h1 {
+            font-weight: 600;
+            font-size: 33px;
+            margin-bottom: 0;
+        }
+        
+        #intro p {
+            padding: 10px 620px;
+            color: hsl(201, 11%, 66%);
+            margin: 0 55px 25px;
+            line-height: 25px;
+        }
+        /* second column (MID) */
+        
+        #mid {
+            margin-top: 150px;
+        }
+        
+        .description {
+            text-align: center;
+            margin-left: 60px;
+        }
+        
+        .description p {
+            padding: 0 655px;
+            line-height: 25px;
+            color: hsl(210, 10%, 33%);
+        }
+        
+        .mid-image {
+            display: flex;
+            padding-top: 20px;
+        }
+        
+        .options {
+            margin: 130px 0 0 80px;
+            line-height: 25px;
+            padding-left: 50px;
+        }
+        
+        .options h3 {
+            font-weight: 600;
+        }
+        
+        .options p {
+            padding: 0 790px 0 0;
+            color: hsl(210, 10%, 33%);
+        }
+        /* second mid */
+        
+        #second-mid {
+            margin-top: 100px;
+            text-align: center;
+            line-height: 25px;
+        }
+        
+        #second-mid p {
+            padding: 0 700px;
+            color: hsl(210, 10%, 33%);
+        }
+        
+        .devices img {
+            margin-top: 50px;
+        }
+        /* outro */
+        
+        #outro {
+            text-align: center;
+        }
+        
+        .activity {
+            display: flex;
+            margin: 50px 0px;
+            padding-top: 40px;
+        }
+        
+        .workflow {
+            flex-wrap: wrap;
+        }
+        
+        .workflow p {
+            padding: 0 129px;
+            line-height: 25px;
+        }
+        
+        .company-image img {
+            margin: 55px;
+            width: 180px;
+        }
+        
+        .latter p {
+            color: hsl(210, 10%, 33%);
+            line-height: 25px;
+            padding: 0 700px;
+            margin-bottom: 50px;
+        }
+        
+        #contact {
+            margin-top: 70px;
+            background-color: hsl(198, 29%, 91%);
+        }
+        
+        .bottom-logo {
+            display: flex;
+        }
+        
+        .bottom-logo img {
+            margin-top: 10px;
+            margin-left: 60px;
+            width: 60px;
+            object-fit: contain;
+        }
+        
+        .contact-footer {
+            height: 200px;
+            /* text-align: center; */
+        }
+        
+        .extra {
+            margin-top: 80px;
+            margin-left: 130px;
+            line-height: 25px;
+        }
+        
+        .extra1 p {
+            margin: 30px;
+            display: inline;
+        }
+        
+        .extra2 p {
+            margin: 28px;
+            display: inline-block;
+        }
+        
+        .social {
+            position: absolute;
+            left: 90%;
+            margin-top: 86px; 
+           
+
+        }
+        
+        .social img {
+            margin: 10px;
+            width: 25px;
+        }
+        /* psuedo */
+        
+        .social img:hover {
+            color: hsl(171, 66%, 44%);
+        }
