@@ -6,8 +6,8 @@
             background-repeat: no-repeat;
             background-size: 127rem;
             font-family: 'Bai Jamjuree', sans-serif;
+
         }
-        
         p{
             font-size: 15px;
             font-weight: 400;
@@ -194,7 +194,7 @@
 
 
         /* Responsiveness */
-        @media screen and (min-width:375px){
+        @media screen and (max-width:600px){
 
             body{
                 background-image: url(/images/bg-header-mobile.png);
